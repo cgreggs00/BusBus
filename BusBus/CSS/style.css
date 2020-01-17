@@ -1,0 +1,405 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+position: relative;
+width: 375px;
+height: 667px;
+background: #EFEFF4;
+}
+
+
+h1 {
+  font-family: SF Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+}
+/*top increases in intervals of 45px*/
+.bus1 {
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 404px;
+}
+.bus2 {
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 449px;
+}
+.bus3{
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 494px;
+}
+.bus4{
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 539px;
+}
+.bus5{
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 584px;
+}
+.bus6{
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 629px;
+}
+.bus7{
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 674px;
+}
+.bus8{
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 719px;
+}
+.bus9{
+  position: absolute;
+width: 56px;
+height: 21px;
+left: 29px;
+top: 764px;
+}
+h2 {font-family: SF Mono;
+font-style: normal;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+display: flex;
+align-items: center;
+}
+/*top increases in intervals of 45px*/
+.time1 {
+  position: absolute;
+width: 44px;
+height: 11px;
+left: 285px;
+top: 412px;
+}
+.time2 {
+  position: absolute;
+width: 44px;
+height: 16px;
+left: 278px;
+top: 457px;
+}
+.time3 {
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 269px;
+  top: 507px;
+}
+.time4 {
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 285px;
+  top: 555px;
+
+}
+.time5 {
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 285px;
+  top: 600px;
+}
+.time6 {
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 285px;
+  top: 645px;
+}
+.time7 {
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 285px;
+  top: 690px;
+}
+.time8 {
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 285px;
+  top: 735px;
+}
+.time9 {
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 285px;
+  top: 780px;
+}
+h3 {
+  font-family: SF Mono;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+
+}
+/*top increases in increments of 45px*/
+.des1 {
+color: #000000;
+position: absolute;
+width: 100%;
+height: 15px;
+left: 109px;
+top: 410px;
+
+}
+.des2 {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 109px;
+  top: 455px;
+}
+.des3 {
+  position: absolute;
+width: 100%;
+height: 15px;
+left: 109px;
+top: 500px;
+}
+.des4 {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 109px;
+  top: 545px;
+
+}
+.des5 {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 109px;
+  top: 590px;
+}
+.des6 {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 109px;
+  top: 635px;
+}
+.des7 {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 109px;
+  top: 680px;
+}
+.des8 {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 109px;
+  top: 725px;
+}
+.des9 {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 109px;
+  top: 770px;
+}
+
+h4  {
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+h5 {
+  color: #000000;
+  font-family: SF Mono;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+/*top increases in incrememts of 45px*/
+}
+.origin1 {
+  position: absolute;
+width: 120px;
+height: 10px;
+left: 90px;
+top: 428px;
+}
+.origin2 {
+  position: absolute;
+width: 120px;
+height: 10px;
+left: 90px;
+top: 473px;
+}
+.origin3 {
+  position: absolute;
+width: 120px;
+height: 10px;
+left: 90px;
+top: 518px;
+
+}
+.origin4 {
+position: absolute;
+width: 120px;
+height: 10px;
+left: 91px;
+top: 563px;
+}
+.origin5 {
+  position: absolute;
+  width: 120px;
+  height: 10px;
+  left: 91px;
+  top: 608px;
+}
+.origin6 {
+  position: absolute;
+  width: 120px;
+  height: 10px;
+  left: 91px;
+  top: 653px;
+}
+.origin7 {
+  position: absolute;
+  width: 120px;
+  height: 10px;
+  left: 91px;
+  top: 698px;
+}
+.origin8 {
+  position: absolute;
+  width: 120px;
+  height: 10px;
+  left: 91px;
+  top: 743px;
+}
+.origin9 {
+  position: absolute;
+  width: 120px;
+  height: 10px;
+  left: 91px;
+  top: 788px;
+}
+.user-start {
+  color: #000000;
+  position: relative;
+width: 100%;
+height: 30px;
+left: 9px;
+top: 40px;
+z-index: 1000;
+
+}
+
+.user-destination {
+  color: #A1A1A1;
+  position: relative;
+width: 100%;
+height: 30px;
+left: 30px;
+top: 70px;
+z-index: 1000;
+}
+
+.time-statement {
+  color: #A1A1A1;
+  position: absolute;
+width: 233px;
+height: 11px;
+left: 52px;
+top: 110px;
+}
+
+.time-preference {
+  position: absolute;
+width: 30.19px;
+height: 11px;
+left: 316px;
+top: 110px;
+}
+
+/* Map - Place */
+
+.square {
+  position: absolute;
+width: 375px;
+height: 266px;
+left: 0px;
+top: 133px;
+
+background: #FFFFFF;
+}
+
+.status-bar {
+  background-image: #000 url(/Users/greggs/Projects/BusBus/CSS/Images/locked-clock.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+z-index: 1100;
+
+}
+.rectangle {
+position: relative;
+width: 243px;
+height: 28px;
+left: 34px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #C8C7CC;
+box-sizing: border-box;
+border-radius: 8px;
+
+padding-left: 8px;
+padding-top: 4px;
+}
+
+.rectangle2 {
+position: relative;
+width: 243px;
+height: 28px;
+left: 14px;
+top: -30px;
+
+background: #FFFFFF;
+border: 1px solid #C8C7CC;
+box-sizing: border-box;
+border-radius: 8px;
+
+padding-left: 29px;
+padding-top: 4px;
+}
