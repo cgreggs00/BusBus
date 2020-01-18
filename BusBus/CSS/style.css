@@ -6,10 +6,18 @@
 position: relative;
 width: 375px;
 height: 667px;
+max-height: 401px;
 background: #EFEFF4;
 }
+.sub-container {
+  background-color: #EFEFF4;
+  height: 267px;
+  width: 375px;
+  max-height: 267px;
+  overflow-y: scroll;
+}
 
-
+/*How do you add a second container? for the bus times*/
 h1 {
   font-family: SF Mono;
 font-style: normal;
@@ -361,14 +369,14 @@ background: #FFFFFF;
 }
 
 .status-bar {
-  background-image: #000 url(/Users/greggs/Projects/BusBus/CSS/Images/locked-clock.svg);
-  background-size: contain;
+  background-image: url(./Images/locked-clock.svg);
+  background-size:auto;
   background-repeat: no-repeat;
   position: relative;
-width: 100%;
-height: 100%;
+width: 375px;
+height: 20px;
 left: 0px;
-top: 0px;
+top: -60px;
 z-index: 1100;
 
 }
