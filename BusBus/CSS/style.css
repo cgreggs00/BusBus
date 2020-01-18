@@ -14,7 +14,8 @@ background: #EFEFF4;
   height: 267px;
   width: 375px;
   max-height: 267px;
-  overflow-y: scroll;
+  overflow-x: hidden;
+   overflow-y: scroll;
 }
 
 /*How do you add a second container? for the bus times*/
@@ -334,7 +335,7 @@ z-index: 1000;
   position: relative;
 width: 100%;
 height: 30px;
-left: 30px;
+left: 29px;
 top: 70px;
 z-index: 1000;
 }
@@ -352,20 +353,54 @@ top: 110px;
   position: absolute;
 width: 30.19px;
 height: 11px;
-left: 316px;
-top: 110px;
+left: 322px;
+top: 109px;
 }
-
+.navigation-iconvector{
+  background-image: url(./Images/navigation-iconvector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+  position: relative;
+position: absolute;
+width: 9px;
+height: 41.11px;
+left: 22px;
+top: 49px;
+  }
+.fill-2{
+  background-image: url(./Images/Fill-2.svg);
+background-size:auto;
+background-repeat: no-repeat;
+  position: absolute;
+width: 16px;
+height: 16px;
+left: 260px;
+top: 46px;
+z-index: 1200;
+}
+.search{
+  background-image: url(./Images/search.svg);
+background-size:auto;
+background-repeat: no-repeat;
+  position: relative;
+width: 16px;
+height: 16px;
+left: 50px;
+top: -2px;
+z-index: 1200;
+}
 /* Map - Place */
 
-.square {
+.map {
+  background-image: url(./Images/map-vector.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
   position: absolute;
-width: 375px;
-height: 266px;
-left: 0px;
-top: 133px;
-
-background: #FFFFFF;
+  width: 375px;
+  height: 266px;
+  left: 0px;
+  top: 133px;
+z-index: 1500;
 }
 
 .status-bar {
@@ -380,6 +415,389 @@ top: -60px;
 z-index: 1100;
 
 }
+.crowdsource-lrg {
+  background-image: url(./Images/crowdsource-vectorlg.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+  position: relative;
+width: 100%;
+height: 100%;
+left: 320px;
+top: -45px;
+  z-index: 1200;
+}
+.arrow1 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 412px;
+z-index: 1100;
+}
+
+.arrow2 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 457px;
+z-index: 1100;
+}
+.arrow3 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 502px;
+z-index: 1100;
+}
+.arrow4 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 547px;
+z-index: 1100;
+}
+.arrow5 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 589px;
+z-index: 1100;
+}
+.arrow6 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 634px;
+z-index: 1100;
+}
+.arrow7 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 679px;
+z-index: 1100;
+}
+.arrow8 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 724px;
+z-index: 1100;
+}
+.arrow9 {
+  background-image: url(./Images/arrow-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+position: absolute;
+width: 13.5px;
+height: 13px;
+left: 90px;
+top: 769px;
+z-index: 1100;
+}
+.carrot-vector {
+  background-image: url(./Images/carrot-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+  position: absolute;
+width: 5.14px;
+height: 4.46px;
+left: 346.19px;
+top: 110px;
+
+}
+.crowdsource-sm1 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 328px;
+top: 412px;
+  z-index: 1100;
+}
+.crowdsource-sm2 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top:457px;
+  z-index: 1100;
+}
+.crowdsource-sm3 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top: 502px;
+  z-index: 1100;
+}
+.crowdsource-sm4 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top: 547px;
+  z-index: 1100;
+}
+.crowdsource-sm5 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top: 589px;
+  z-index: 1100;
+}
+.crowdsource-sm6 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top: 634px;
+  z-index: 1100;
+}
+.crowdsource-sm7 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top: 679px;
+  z-index: 1100;
+}
+.crowdsource-sm8 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top: 724px;
+  z-index: 1100;
+}
+.crowdsource-sm9 {
+  background-image: url(./Images/crowdsource-vector.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 328px;
+  top: 769px;
+  z-index: 1100;
+}
+.chevron1 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 412px;
+  z-index: 1100;
+}
+.chevron2 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 457px;
+  z-index: 1100;
+}
+.chevron3 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 502px;
+  z-index: 1100;
+}
+.chevron4 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 547px;
+  z-index: 1100;
+}
+.chevron5 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 592px;
+  z-index: 1100;
+}
+.chevron6 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 637px;
+  z-index: 1100;
+}
+.chevron7 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 682px;
+  z-index: 1100;
+}
+.chevron8 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 727px;
+  z-index: 1100;
+}
+.chevron9 {
+  background-image: url(./Images/arrow-right-grey.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+
+
+
+  position: absolute;
+  width:20px;
+  height: 20px;
+left: 353px;
+top: 772px;
+  z-index: 1100;
+}
+
 .rectangle {
 position: relative;
 width: 243px;
